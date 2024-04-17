@@ -14,6 +14,8 @@ namespace WebTechnology.Models
     
     public partial class TaiKhoan
     {
+        internal string list_ChucNang;
+
         public string Username { get; set; }
         public string Password { get; set; }
         public string MaLoaiTK { get; set; }

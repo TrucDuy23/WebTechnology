@@ -141,6 +141,10 @@
     <Compile Include="Models\ChucNang.cs">
       <DependentUpon>Data_Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\DataAccess_Object\KHACHHANG_DAO.cs" />
+    <Compile Include="Models\DataAccess_Object\LOAISANPHAM_DAO.cs" />
+    <Compile Include="Models\DataAccess_Object\SANPHAM_DAO.cs" />
+    <Compile Include="Models\DataAccess_Object\TAIKHOAN_DAO.cs" />
     <Compile Include="Models\Data_Model.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -318,7 +322,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\DataAccess_Object\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

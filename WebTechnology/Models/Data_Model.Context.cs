@@ -30,7 +30,7 @@ namespace WebTechnology.Models
         public virtual DbSet<ChucNang> ChucNang { get; set; }
         public virtual DbSet<DonHang> DonHang { get; set; }
         public virtual DbSet<KhachHang> KhachHang { get; set; }
-        public virtual DbSet<LoaiSanPham> LoaiSanPham { get; set; }
+        public virtual DbSet<LoaiSanPham> LOAISANPHAM { get; set; }
         public virtual DbSet<LoaiTaiKhoan> LoaiTaiKhoan { get; set; }
         public virtual DbSet<SanPham> SanPham { get; set; }
         public virtual DbSet<TaiKhoan> TaiKhoan { get; set; }

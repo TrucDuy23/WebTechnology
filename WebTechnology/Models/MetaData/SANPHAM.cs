@@ -9,8 +9,10 @@ namespace WebTechnology.Models.MetaData
     [MetadataType(typeof(SANPHAM.MetaData))]
     public partial class SANPHAM
     {
+        public int count { get; set; }
         sealed class MetaData
         {
+            
             [Required(AllowEmptyStrings = false,
                       ErrorMessage = "Mã sản phẩm không được để trống")]
             public string MaSanPham { get; set; }

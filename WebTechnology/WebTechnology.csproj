@@ -141,9 +141,6 @@
     <Compile Include="Models\ChucNang.cs">
       <DependentUpon>Data_Model.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DanhMuc.cs">
-      <DependentUpon>Data_Model.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\Data_Model.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -163,6 +160,9 @@
       <DependentUpon>Data_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\KhachHang.cs">
+      <DependentUpon>Data_Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoaiSanPham.cs">
       <DependentUpon>Data_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\LoaiTaiKhoan.cs">
@@ -255,8 +255,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Models\Data_Model.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Data_Model.Context.cs</LastGenOutput>
       <DependentUpon>Data_Model.edmx</DependentUpon>
+      <LastGenOutput>Data_Model.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Models\Data_Model.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

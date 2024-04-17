@@ -27,12 +27,12 @@ namespace WebTechnology.Models
         public string HinhAnh { get; set; }
         public Nullable<System.DateTime> NgayCapNhat { get; set; }
         public int SoLuongTon { get; set; }
-        public string MaDanhMuc { get; set; }
+        public string MaLoai { get; set; }
         public string MaThuongHieu { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ChiTietDonHang> ChiTietDonHang { get; set; }
-        public virtual DanhMuc DanhMuc { get; set; }
+        public virtual LoaiSanPham LoaiSanPham { get; set; }
         public virtual ThuongHieu ThuongHieu { get; set; }
     }
 }

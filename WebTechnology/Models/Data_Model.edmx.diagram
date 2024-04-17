@@ -4,22 +4,22 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="a3a682630bf34df7b526de8cfc26014d" Name="Diagram1" ZoomLevel="65">
+      <Diagram DiagramId="4979a4e85d0d4387aa8ce3e015148a17" Name="Diagram1">
         <EntityTypeShape EntityType="Models.BaiViet" Width="1.5" PointX="3" PointY="13.625" IsExpanded="true" />
         <EntityTypeShape EntityType="Models.ChiTietDonHang" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="Models.ChucNang" Width="1.5" PointX="11.625" PointY="6.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="Models.DanhMuc" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.ChucNang" Width="1.5" PointX="2.75" PointY="6" IsExpanded="true" />
         <EntityTypeShape EntityType="Models.DonHang" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
         <EntityTypeShape EntityType="Models.KhachHang" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="Models.LoaiTaiKhoan" Width="1.5" PointX="10.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.LoaiSanPham" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.LoaiTaiKhoan" Width="1.5" PointX="5" PointY="5.875" IsExpanded="true" />
         <EntityTypeShape EntityType="Models.SanPham" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="Models.TaiKhoan" Width="1.5" PointX="7.25" PointY="5.875" IsExpanded="true" />
         <EntityTypeShape EntityType="Models.ThuongHieu" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
         <AssociationConnector Association="Models.FK_BaiViet_BaiViet" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_ChiTietDonHang_DonHang" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_ChiTietDonHang_SanPham" ManuallyRouted="false" />
-        <AssociationConnector Association="Models.FK_SanPham_DanhMuc" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_DonHang_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_SanPham_DanhMuc" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_TaiKhoan_TaiKhoan" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_SanPham_ThuongHieu" ManuallyRouted="false" />
         <AssociationConnector Association="Models.PhanQuyen" ManuallyRouted="false" />

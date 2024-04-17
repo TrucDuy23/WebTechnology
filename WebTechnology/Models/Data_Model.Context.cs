@@ -28,9 +28,9 @@ namespace WebTechnology.Models
         public virtual DbSet<BaiViet> BaiViet { get; set; }
         public virtual DbSet<ChiTietDonHang> ChiTietDonHang { get; set; }
         public virtual DbSet<ChucNang> ChucNang { get; set; }
-        public virtual DbSet<DanhMuc> DanhMuc { get; set; }
         public virtual DbSet<DonHang> DonHang { get; set; }
         public virtual DbSet<KhachHang> KhachHang { get; set; }
+        public virtual DbSet<LoaiSanPham> LoaiSanPham { get; set; }
         public virtual DbSet<LoaiTaiKhoan> LoaiTaiKhoan { get; set; }
         public virtual DbSet<SanPham> SanPham { get; set; }
         public virtual DbSet<TaiKhoan> TaiKhoan { get; set; }

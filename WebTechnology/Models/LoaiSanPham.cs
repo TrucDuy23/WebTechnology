@@ -12,16 +12,16 @@ namespace WebTechnology.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class DanhMuc
+    public partial class LoaiSanPham
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public DanhMuc()
+        public LoaiSanPham()
         {
             this.SanPham = new HashSet<SanPham>();
         }
     
-        public string MaDanhMuc { get; set; }
-        public string TenDanhMuc { get; set; }
+        public string MaLoai { get; set; }
+        public string TenLoai { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<SanPham> SanPham { get; set; }

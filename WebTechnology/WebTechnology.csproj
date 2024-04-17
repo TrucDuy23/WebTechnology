@@ -304,6 +304,8 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Slide.cshtml" />
+    <Content Include="Views\SanPham\Chitietsanpham.cshtml" />
+    <Content Include="Views\Home\Sanpham.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

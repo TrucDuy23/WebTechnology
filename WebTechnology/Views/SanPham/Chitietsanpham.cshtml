@@ -1,0 +1,34 @@
+﻿
+@model WebTechnology.Models.SanPham
+
+<div class="col-xs-12">
+    <table style="border:none">
+        <tr>
+            <td rowspan="8">
+                <img src="~/Content/img/AnhBia/@Model.HinhAnh" style="width: 345px; height: 312px;" alt="">
+            </td>
+            @if (Model.SoLuongTon > 0)
+            {
+                <td><b>Tình Trạng : </b>Còn Hàng</td>
+            }
+            else
+            {
+                <td><b>Tình Trạng : </b>Hết Hàng</td>
+            }
+        </tr>
+        <tr>
+            <td><h4>Sản phẩm : @Model.TenSanPham </h4></td>
+        </tr>
+        <tr>
+            <td><b>Thương hiệu : </b>@Model.ThuongHieu</td>
+        </tr>
+        <tr>
+            <td><b>Giá Bán : </b>@String.Format("{0:N0}", @Model.Gia)</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b>Tóm Tắt : </b>@Model.MoTa
+            </td>
+        </tr>
+    </table>
+</div>

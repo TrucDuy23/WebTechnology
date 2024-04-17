@@ -168,6 +168,15 @@
     <Compile Include="Models\LoaiTaiKhoan.cs">
       <DependentUpon>Data_Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\MetaData\CHITIET_DONHANG.cs" />
+    <Compile Include="Models\MetaData\CHUCNANG.cs" />
+    <Compile Include="Models\MetaData\DONHANG.cs" />
+    <Compile Include="Models\MetaData\KHACHHANG.cs" />
+    <Compile Include="Models\MetaData\LOAISANPHAM.cs" />
+    <Compile Include="Models\MetaData\LOAITAIKHOAN.cs" />
+    <Compile Include="Models\MetaData\SANPHAM.cs" />
+    <Compile Include="Models\MetaData\TAIKHOAN.cs" />
+    <Compile Include="Models\MetaData\THUONGHIEU.cs" />
     <Compile Include="Models\SanPham.cs">
       <DependentUpon>Data_Model.tt</DependentUpon>
     </Compile>
@@ -307,6 +316,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\DataAccess_Object\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

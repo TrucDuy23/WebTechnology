@@ -27,8 +27,6 @@ namespace WebTechnology.Models.MetaData
 
             [Required(AllowEmptyStrings = false,
                   ErrorMessage = "Giá sản phẩm không được để trống")]
-            public Nullable<decimal> Gia { get; set; }
-            public string HinhAnh { get; set; }
             public Nullable<System.DateTime> NgayCapNhat { get; set; }
             
             [Required(AllowEmptyStrings = false,

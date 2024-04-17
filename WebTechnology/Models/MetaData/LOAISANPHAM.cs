@@ -10,6 +10,8 @@ namespace WebTechnology.Models.MetaData
     public partial class LOAISANPHAM
     {
         public int count { get; set; }
+        public string MaLoai { get; internal set; }
+
         sealed class MetaData
         {
             [Required(AllowEmptyStrings = false,

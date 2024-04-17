@@ -31,7 +31,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <ul>
                             <li><a href="#">Đăng ký</a></li>
                             <li><a href="#">Đăng nhập</a></li>
-                            <li><a href="#"><span class="icon">🛒</span>Giỏ hàng</a></li>
+                            
                         </ul>
                     </div>
                     <div class="clear"></div>
@@ -67,10 +67,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="menu">
                     <ul>
                         <li class="active"><a href="index.html">Home</a></li>
+                        <li class="dropdown active">
+                            @Html.ActionLink("Sản phẩm", "sanpham", "Home")
+                        </li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="delivery.html">Delivery</a></li>
                         <li><a href="news.html">News</a></li>
                         <li><a href="contact.html">Contact</a></li>
+                        <li>@Html.ActionLink("Giỏ Hàng", "", "")</li>
                         <div class="clear"></div>
                     </ul>
                 </div>
@@ -78,6 +82,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <form>
                         <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
                     </form>
+                    
                 </div>
                 <div class="clear"></div>
             </div>
